@@ -20,7 +20,7 @@ class Anotacao{
 
   factory Anotacao.fromJson(Map<String,dynamic> map){
     return Anotacao(
-        id: map["id"], //ID do banco de dados
+        id: map["id"], //ID no banco de dados
         titulo: map["titulo"],
         descricao: map["descricao"],
         data: map["data"],
